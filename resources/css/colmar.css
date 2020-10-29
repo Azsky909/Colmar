@@ -1,0 +1,28 @@
+* {
+    box-sizing: content-box;
+}
+header {
+    display: flex;
+    height: 62px;
+    align-items: center;
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    margin-left: 24px;
+}
+.logo span {
+    color: gray;
+}
+.navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 24px;
+   
+    
+}
+.navigation p {
+    margin-left: 16px;
+}
