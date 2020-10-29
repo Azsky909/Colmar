@@ -1,5 +1,7 @@
 * {
     box-sizing: content-box;
+    margin-left: 0;
+    margin-right: 0;
 }
 header {
     display: flex;
@@ -25,4 +27,31 @@ header {
 }
 .navigation p {
     margin-left: 16px;
+}
+
+.firstcontentbox {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    
+
+}
+
+.firstcontentbox img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+.firstcontenttext {
+    text-align: left;
+}
+
+button {
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: white;
+    padding: 8px;
+    font-size: 1rem;
 }
